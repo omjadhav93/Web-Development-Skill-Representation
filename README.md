@@ -4,7 +4,7 @@ In this repo I am going to present some code sections of all different languages
 ## [JavaScript Expertise](Javascript/)
 As the developer of a comprehensive E-Commerce platform, I used JavaScript to create dynamic, responsive interfaces and optimize performance. My skills ensure engaging user interactions, seamless data handling, and an overall efficient shopping experience.
 
-- [**Dynamic UI Interactions:**](Javascript/Dynamic%20UI%20Interactions/README.md) Leveraged JavaScript to build engaging, interactive elements like carousels and modals, enhancing the user experience on my E-Commerce platform.
+- [**Dynamic UI Interactions:**](Javascript/Dynamic%20UI%20Interactions/) Leveraged JavaScript to build engaging, interactive elements like carousels and modals, enhancing the user experience on my E-Commerce platform.
 
 - **Form Validation:** Implemented client-side form validations to ensure smooth and secure user interactions during registration, login, and checkout processes.
 
