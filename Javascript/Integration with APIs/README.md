@@ -7,7 +7,7 @@ API (Application Programming Interface) integration is crucial for enabling comm
 
 In this folder, you will find examples of how JavaScript can be used to interact with APIs in a variety of scenarios, from loading data on demand to enabling user actions like liking or disliking products.
 
-### [Example 1: Like/Dislike a Product](./like_products_with_api.js)
+### Example 1: Like/Dislike a Product
 In this example, users can quickly like or dislike a product using API calls. The example shows how to send a POST request from the client side to a server-side API to add or remove a product from the user's favorites list.
 
 #### Code Overview
@@ -20,7 +20,11 @@ Upon success, the button changes to indicate that the product has been liked, an
 The removeLike() function sends a POST request to the /api/removeFav endpoint to remove a product from the favorites list.
 Upon success, the button is updated to reflect the removal of the product from the list.
 
-### [Example 2: Lazy Loading Product Sections](./lazy_loading_products.js)
+**[View Code](./like_products_with_api.js)**
+
+---
+
+### Example 2: Lazy Loading Product Sections
 Lazy loading defers the loading of non-critical resources at the start, only loading them when they are needed. This reduces the initial load time and helps with overall page performance.
 
 #### Code Overview
@@ -39,3 +43,4 @@ Instead of loading all the products at once when the page loads, the products ar
 
 - **Efficient Product Rendering**: Each product is represented as a div element containing its image and a clickable box leading to the product details.
 
+**[View Code](./lazy_loading_products.js)**
