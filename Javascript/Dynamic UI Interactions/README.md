@@ -18,3 +18,21 @@ The **Running Counter Effect** dynamically animates numerical values, making it 
 
 ### Usage:
 This effect is ideal for landing pages, dashboards, and portfolio websites where you want to highlight key statistics in an engaging way.
+
+## [Seller Image Upload UI with Color Selection](./add_image_with_color.js)
+
+This feature allows sellers to add product images corresponding to different color variants while listing their products on the E-Commerce platform. The UI ensures ease of use by dynamically generating input fields based on selected colors and enforcing image upload limits.
+
+### Key Features:
+- **Dynamic UI Generation**: When sellers select color options, input fields for adding images are automatically created for each selected color.
+- **Image Upload Limit Enforcement**: Sellers can upload a maximum of 5 images per color variant. The UI enforces this limit to ensure that only valid numbers of images are uploaded.
+- **Image Previews**: After selecting images, sellers can view a preview of the uploaded images for each color variant.
+- **Remove Uploaded Images**: Sellers can remove previously uploaded images, and the UI will adjust accordingly.
+- **Lazy File Inputs**: New file inputs appear as needed, allowing for smooth image addition without cluttering the UI.
+
+### How It Works:
+- **Dynamic Image Inputs**: As sellers select color options (via checkboxes), the script generates file input fields for uploading images related to that color. If a color is deselected, the corresponding image input is removed.
+- **Image Uploading**: Sellers can upload up to 5 images per color. Once 5 images have been uploaded for a particular color, further image input fields are disabled.
+- **Preview Functionality**: After the user selects images, thumbnails of the images are shown in the UI to give a preview of the uploaded files.
+- **Remove Functionality**: Sellers can remove an entire set of uploaded images at any time, and the input fields will be restored if the total number of uploaded images for that color drops below 5.
+- **Validation**: The script checks if the uploaded images exceed the limit of 5 before accepting the files. If the limit is exceeded, it will show an alert and discard the extra images.
