@@ -1,8 +1,6 @@
 /* This code helps me to add 'atleast one' condition to checkbox, and required codition to radio. After adding this the main thing remains that is the form validation for other remaining form elements which get bypassed when we do form.submit() directly. So I add an Event Listener to submit action for report validation of other form elements(like input[type="text", required=true]) before submitting it.*/
 
 
-
-
 /* Submitting Form */
 const form = document.getElementById('addProductForm');
 
