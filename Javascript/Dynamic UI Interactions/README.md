@@ -2,7 +2,7 @@
 
 This section showcases interactive UI elements built with JavaScript that enhance user experience by dynamically updating content and improving user engagement. Each example demonstrates efficient coding practices and creative solutions for common UI needs.
 
-## [Running Counter Effect](./running_counter_effect.js)
+## Running Counter Effect
 
 The **Running Counter Effect** dynamically animates numerical values, making it perfect for showcasing important business metrics like customer growth, sales numbers, or achievements.
 
@@ -19,7 +19,11 @@ The **Running Counter Effect** dynamically animates numerical values, making it 
 ### Usage:
 This effect is ideal for landing pages, dashboards, and portfolio websites where you want to highlight key statistics in an engaging way.
 
-## [Seller Image Upload UI with Color Selection](./add_image_with_color.js)
+**[View Code](./running_counter_effect.js)**
+
+---
+
+## Seller Image Upload UI with Color Selection
 
 This feature allows sellers to add product images corresponding to different color variants while listing their products on the E-Commerce platform. The UI ensures ease of use by dynamically generating input fields based on selected colors and enforcing image upload limits.
 
@@ -36,3 +40,5 @@ This feature allows sellers to add product images corresponding to different col
 - **Preview Functionality**: After the user selects images, thumbnails of the images are shown in the UI to give a preview of the uploaded files.
 - **Remove Functionality**: Sellers can remove an entire set of uploaded images at any time, and the input fields will be restored if the total number of uploaded images for that color drops below 5.
 - **Validation**: The script checks if the uploaded images exceed the limit of 5 before accepting the files. If the limit is exceeded, it will show an alert and discard the extra images.
+
+**[View Code](./add_image_with_color.js)**
