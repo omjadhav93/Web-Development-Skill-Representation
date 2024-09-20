@@ -7,12 +7,14 @@ Asynchronous programming is a core aspect of modern web development, allowing ap
 - Demonstrating the use of JavaScript's async/await for cleaner, more readable code when working with asynchronous operations.
 
 ## Examples:
-1. Waiting for dispatchEvent
+1. **Waiting for dispatchEvent**
+
 This example demonstrates how I dynamically updated a select menu's options (for district selection) based on the selected state. To ensure the UI doesn't display outdated or invalid information, I used the dispatchEvent method to reset the select menu after populating it with new options.
 
 [View Code](./waiting_for_dispatchEvent.js)
 
-2. Waiting for Server Response
+2. **Waiting for Server Response**
+
 In this example, I use the async/await syntax to wait for a server response when fetching orders. This approach ensures that the UI is responsive while the fetch operation completes, and errors are handled gracefully.
 
 [View Code](./waiting_for_server_response.js)
