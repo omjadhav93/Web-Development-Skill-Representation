@@ -10,7 +10,7 @@ As the developer of a comprehensive E-Commerce platform, I used JavaScript to cr
 
 - [**Asynchronous Programming (Promises, Async/Await):**](Javascript/Asynchronous%20Programming/) Utilized async programming techniques to handle API requests efficiently, providing a responsive and seamless shopping experience.
 
-- [**DOM Manipulation and Event Handling:**](Javascript/DOM%20Manipulation%20and%20Event%20Handling/) Managed real-time updates and interactive responses using DOM manipulation and event handling to enhance the user journey.
+- [**DOM Manipulation And Event Handling:**](Javascript/DOM%20Manipulation%20And%20Event%20Handling/) Managed real-time updates and interactive responses using DOM manipulation and event handling to enhance the user journey.
 
 - [**Integration with APIs:**](Javascript/Integration%20with%20APIs/) Integrated JavaScript with backend APIs for dynamic data fetching, enabling real-time updates for products, carts, and orders.
 
