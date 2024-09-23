@@ -6,15 +6,15 @@ This section demonstrates how I have handled user authentication and session man
 
 ## File Structure
 
-- **checkAuth.js**: Verifies if a user has a valid authentication token to prevent unnecessary re-logins.
-- **fetchCheckUser.js**: Checks if a user is logged in and retrieves their data for further usage.
-- **fetchUser.js**: Ensures that only authenticated users can access certain routes and redirects unauthenticated users to the login page.
+- [**checkAuth.js**](./checkAuth.js): Verifies if a user has a valid authentication token to prevent unnecessary re-logins.
+- [**fetchCheckUser.js**](./fetchCheckUser.js): Checks if a user is logged in and retrieves their data for further usage.
+- [**fetchUser.js**](./fetchUser.js): Ensures that only authenticated users can access certain routes and redirects unauthenticated users to the login page.
 
 ---
 
 ## Middleware Details
 
-### 1. **checkAuth.js**: Token Guardian
+### 1. [**checkAuth.js**](./checkAuth.js): Token Guardian
 
 **Feature Explanation:**
 
@@ -26,7 +26,7 @@ This section demonstrates how I have handled user authentication and session man
 
 ---
 
-### 2. **fetchCheckUser.js**: Who’s Logged In?
+### 2. [**fetchCheckUser.js**](./fetchCheckUser.js): Who’s Logged In?
 
 **Feature Explanation:**
 
@@ -38,7 +38,7 @@ This section demonstrates how I have handled user authentication and session man
 
 ---
 
-### 3. **fetchUser.js**: Access Denied! Login Required
+### 3. [**fetchUser.js**](./fetchUser.js): Access Denied! Login Required
 
 **Feature Explanation:**
 
