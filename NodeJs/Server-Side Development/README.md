@@ -4,12 +4,12 @@ This folder showcases my skills in developing and managing server-side logic to 
 
 ## File Structure
 
-- **basic_request_handling.js**: Demonstrates setting up a basic Express server with session management and Pug as the templating engine for rendering dynamic views.
-- **product_get_request.js**: Handles a GET request to serve product details, with personalized features like favorite lists and visitor count updates.
+- [**basic_request_handling.js**](./basic_request_handling.js): Demonstrates setting up a basic Express server with session management and Pug as the templating engine for rendering dynamic views.
+- [**product_get_request.js**](./product_get_request.js): Handles a GET request to serve product details, with personalized features like favorite lists and visitor count updates.
 
 ---
 
-### Example 1: `basic_request_handling.js`
+### Example 1: [`basic_request_handling.js`](./basic_request_handling.js)
 
 This example demonstrates how I set up a basic Node.js server using Express. It includes:
 
@@ -29,7 +29,7 @@ app.listen(PORT, () => {
 });
 ```
 
-### Example 2: `product_get_request.js`
+### Example 2: [`product_get_request.js`](./product_get_request.js)
 
 This example demonstrates how I handled a GET request for product information. The server fetches the product details based on a model number from the database and renders the appropriate page with dynamic content depending on the user's login status.
 
