@@ -6,7 +6,7 @@ This folder contains backend programs that manage user authentication and author
 
 ## Programs Overview
 
-### 1. `login.js`
+### 1. [`login.js`](./login.js)
 Handles user login functionality:
 - **Features:**
   - Validates email and password inputs using `express-validator`.
@@ -15,7 +15,7 @@ Handles user login functionality:
   - Handles errors gracefully with user-friendly messages.
   - Redirects users to their intended destination or the homepage upon successful login.
 
-### 2. `register.js`
+### 2. [`register.js`](./register.js)
 Manages user registration:
 - **Features:**
   - Validates inputs, including email, phone number, and password strength.
@@ -25,7 +25,7 @@ Manages user registration:
   - Stores user data, including name, security questions, and optional phone number.
   - Issues a JWT token for automatic login after successful registration.
 
-### 3. `change-password.js`
+### 3. [`change-password.js`](./change-password.js)
 Enables users to change their passwords:
 - **Features:**
   - Validates new password strength and complexity.
